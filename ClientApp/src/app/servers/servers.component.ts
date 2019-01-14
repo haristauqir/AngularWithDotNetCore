@@ -9,7 +9,7 @@ import { setTimeout } from 'timers';
 export class ServersComponent implements OnInit {
   allowNewServer = false;
   serverCreationStatus = 'No server was created!';
-  serverName = '';
+  serverName = 'testServer';
 
   constructor() {
     setTimeout(() => {
