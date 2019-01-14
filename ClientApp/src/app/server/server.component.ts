@@ -7,5 +7,7 @@ import { templateJitUrl } from "@angular/compiler";
   styleUrls: ['./server.component.css']
 })
 export class ServerComponent {
+  serverId: number = 5;
+  serverStatus: string = 'offline';
 
 }
